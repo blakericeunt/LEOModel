@@ -7,4 +7,5 @@ system('git add .');
 Commit changes:
 system('git commit -m "Add initial files"');
 Push changes:
+system('git config --global http.postBuffer 524288000');
 system('git push origin main');
